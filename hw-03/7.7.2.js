@@ -13,4 +13,5 @@ const ctx = { a: 2, b: 3, operator: '+' };
 
 
 const result = calculate.apply(ctx, [2, 3, '+']);
-console.log(result); // 5
+console.log(result); 
+
