@@ -4,5 +4,5 @@ function printInfo() {
 
 const person = { name: 'Vasil', age: 28 };
 
-// вызываем printInfo от имени person
+
 printInfo.call(person);
