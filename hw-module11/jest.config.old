@@ -1,0 +1,7 @@
+// jest.config.cjs
+module.exports = {
+  rootDir: '.',
+  testEnvironment: 'node',
+  // запускать все файлы, которые оканчиваются на .test.js
+  testMatch: ['**/*.test.js'],
+};
